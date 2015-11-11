@@ -1,0 +1,13 @@
+<div class="management">
+
+	<h1>{{event.name}}</h1>
+	<div class="event-description">{{event.description}}</div>
+
+	<h2>Screens</h2>
+	<div class="screens-list">
+		<ul ng-repeat="screen in event.screens" class="screens">
+			<li class="screen-name"><a href="#/events/{{event.id}}/screens/{{screen.id}}" class="screen-link">{{screen.id}}</a></li>
+		</ul>
+	</div>
+
+</div>

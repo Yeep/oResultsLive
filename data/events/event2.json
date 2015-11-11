@@ -1,0 +1,23 @@
+{
+	"id": "7095db05-78e7-4ac3-ab03-7e0f8d9785a4",
+	"name": "JK 2016",
+	"description": "A second sample event containing different stuff",
+	"screens": [
+		{
+			"id": 1,
+			"layout": {
+			}
+		},
+		{
+			"id": 2,
+			"layout": {
+			}
+		}
+	],
+	"data": {
+		"type": "IofXmlParser",
+		"configuration": {
+			"results": "data/ResultList1.xml"
+		}
+	}
+}

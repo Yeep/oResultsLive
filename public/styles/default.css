@@ -1,0 +1,223 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+#container {
+	padding: 0;
+	margin: 0;
+}
+
+.management {
+	padding: 1em;
+	margin: 1em;
+	background-color: #EAEAEA;
+	
+	box-shadow: 10px 10px 5px #6D6D6D;
+	
+	width: auto;
+	display: inline-block;
+}
+
+.management h1 {
+	font-size: 2em;
+	font-weight: normal;
+}
+
+.management .events-list {
+}
+
+.management .events-list .event {
+	display: inline;
+	padding: 1em;
+	
+	position: relative;
+}
+
+.management .events-list .event  .event-name {
+	display: block;
+	
+	background-color: #FF0000;
+	text-align: center;
+	font-weight: bold;
+	
+	padding: 0.1em;
+}
+
+.management .events-list .event .event-name a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.management .events-list .event  .event-description {
+	display: block;
+	background-color: #FFFFFF;
+	
+	font-size: 0.8em;
+	
+	padding: 0.1em;
+}
+
+.screen {
+	width: 100%;
+	height: 100%;
+	
+	background-color: #6D6D6D;
+}
+
+.screen table {
+	border-spacing: 10px;
+	border-collapse: collapse;
+}
+
+.screen td {
+	vertical-align: top;
+	padding: 0;
+	margin: 0;
+	
+	position: relative;
+	
+	background-color: white;
+	box-shadow: inset 5px 5px 2px #EAEAEA;
+}
+
+.screen h1 {
+	padding: 0.1em;
+	
+	display: block;
+}
+
+.screen .course-details {
+	float: left;
+	position: relative;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.screen .course-details .course-name {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.screen .course-details .length,
+.screen .course-details .climb {
+	font-size: 0.7em;
+	font-weight: bold;
+	padding-left: 15px;
+}
+
+.screen .course-details .length:after,
+.screen .course-details .climb:after {
+	content: "m";
+}
+
+.screen .course-details .length {
+	background: url('/material-design/right237.svg') center left no-repeat;
+	position: absolute;
+	left: 10px;
+	top: 30px;
+}
+
+.screen .course-details .climb {
+	background: url('/material-design/up176.svg') center left no-repeat;
+	position: absolute;
+	left: 10px;
+	top: 40px;
+}
+
+.screen .results {
+padding-top: 160px;
+}
+
+.screen .results .result {
+	display: table-row;
+	width: 100%;
+}
+
+.screen .results .position1,
+.screen .results .position2,
+.screen .results .position3 {
+	position: absolute;
+	width: 20%;
+	border-top: 3px solid #6D6D6D;
+}
+
+.screen .results .position1 .position,
+.screen .results .position2 .position,
+.screen .results .position3 .position {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.screen .results .position1 .name,
+.screen .results .position2 .name,
+.screen .results .position3 .name {
+	font-size: 1.2em;
+	position: absolute;
+	top: -1.5em;
+}
+
+.screen .results .position1 .club,
+.screen .results .position2 .club,
+.screen .results .position3 .club {
+	width: 75%;
+	font-size: 0.6em;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.screen .results .position1 .time,
+.screen .results .position2 .time,
+.screen .results .position3 .time {
+	position: absolute;
+	bottom: 0;
+	right: 1em;
+}
+
+.screen .results .position1 {
+	background-color: gold;
+	height: 80px;
+	
+	top: 50px;
+	right: 30%;
+}
+
+.screen .results .position2 {
+	background-color: silver;
+	height: 60px;
+	
+	top: 70px;
+	right: 50%;
+}
+
+.screen .results .position3 {
+	background-color: #CD7F32;
+	height: 40px;
+	
+	top: 90px;
+	right: 10%;
+}
+
+.screen .results .result .position {
+	display: table-cell;
+	width: 1em;
+}
+
+.screen .results .result .name {
+	display: table-cell;
+}
+
+.screen .results .result .time {
+	display: table-cell;
+	width: 5em;
+}
+
+.screen .results .result .status {
+	display: table-cell;
+	width: 5em;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "oresultslive",
+  "version": "0.0.1",
+  "main": "sever.js",
+  "dependencies": {
+    "body-parser": "1.x",
+    "bower": "1.6.5",
+    "express": "4.x",
+    "xml2js": "0.4.x",
+    "xmldom": "^0.1.19",
+    "xpath": "0.0.9"
+  }
+}

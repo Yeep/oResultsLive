@@ -1,0 +1,66 @@
+{
+	"id": "3c82319b-eb60-4518-a369-873ee5f3ebf0",
+	"name": "Sample Event",
+	"description": "A sample event containing stuff",
+	"screens": [
+		{
+			"id": 1,
+			"layout": {
+				"rows": [
+					{
+						"height": "25%",
+						"views": [
+							{
+								"type": "class-leaders-view",
+								"columnSpan": 3,
+								"configuration": {}
+							}
+						]
+					},
+					{
+						"views": [
+							{
+								"type": "class-results-view",
+								"configuration": {
+									"class": {
+										"id": 1,
+										"name": "M21L"
+									}
+								}
+							},
+							{
+								"type": "class-results-view",
+								"configuration": {
+									"class": {
+										"id": 2,
+										"name": "M21S"
+									}
+								}
+							},
+							{
+								"type": "class-results-view",
+								"configuration": {
+									"class": {
+										"id": 3,
+										"name": "M21V"
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": 2,
+			"layout": {
+			}
+		}
+	],
+	"data": {
+		"type": "IofXmlParser",
+		"configuration": {
+			"results": "data/ResultList1.xml"
+		}
+	}
+}

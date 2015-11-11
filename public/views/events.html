@@ -1,0 +1,12 @@
+<div class="management">
+
+	<h1>Events</h1>
+
+	<div class="events-list">
+		<div ng-repeat="event in events" class="event">
+			<span class="event-name"><a href="#/events/{{event.id}}" class="event-link">{{event.name}}</a></span>
+			<span class="event-description">{{event.description}}</span>
+		</div>
+	</div>
+
+</div>

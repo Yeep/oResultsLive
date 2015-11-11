@@ -1,0 +1,7 @@
+<table class="screen">
+	<tr ng-repeat="row in screen.layout.rows" height="{{row.height}}">
+		<td ng-repeat="view in row.views" colspan="{{view.columnSpan}}">
+			<view-generator view="view.type" config="view.configuration" event="event"></view-generator>
+		</td>
+	</tr>
+</table>

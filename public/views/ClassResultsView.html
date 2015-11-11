@@ -1,0 +1,15 @@
+<div class="course-details">
+	<span class="course-name">{{results.name || class.name}}</span>
+	<span class="length">{{results.course.length}}</span>
+	<span class="climb">{{results.course.climb}}</span>
+</div>
+
+<div class="results">
+	<div ng-repeat="result in results.results" ng-class="positionClass(result.position)" class="result">
+		<span class="position">{{result.position}}</span>
+		<span class="name">{{fullName(result.person)}}</span>
+		<span class="club">{{result.club.name}}</span>
+		<span class="time">{{toTime(result.time)}}</span>
+		<span ng-if="result.status != 'OK'" class="status">{{result.status}}</span>
+	</div>
+</div>
